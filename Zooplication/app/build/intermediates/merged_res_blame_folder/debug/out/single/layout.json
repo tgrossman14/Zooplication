@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Tal\\AndroidStudioProjects\\Zooplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Tal\\AndroidStudioProjects\\Zooplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tal\\AndroidStudioProjects\\Zooplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Tal\\AndroidStudioProjects\\Zooplication\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

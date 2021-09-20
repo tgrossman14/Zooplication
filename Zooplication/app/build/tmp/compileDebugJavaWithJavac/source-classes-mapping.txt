@@ -1,0 +1,36 @@
+com/example/zooplication/data/LoginRepository.java
+ com.example.zooplication.data.LoginRepository
+com/example/zooplication/data/model/LoggedInUser.java
+ com.example.zooplication.data.model.LoggedInUser
+com/example/zooplication/data/LoginDataSource.java
+ com.example.zooplication.data.LoginDataSource
+com/example/zooplication/ui/login/LoggedInUserView.java
+ com.example.zooplication.ui.login.LoggedInUserView
+com/example/zooplication/ui/login/LoginActivity.java
+ com.example.zooplication.ui.login.LoginActivity
+ com.example.zooplication.ui.login.LoginActivity$1
+ com.example.zooplication.ui.login.LoginActivity$2
+ com.example.zooplication.ui.login.LoginActivity$3
+ com.example.zooplication.ui.login.LoginActivity$4
+ com.example.zooplication.ui.login.LoginActivity$5
+com/example/zooplication/databinding/ActivityLoginBinding.java
+ com.example.zooplication.databinding.ActivityLoginBinding
+com/example/zooplication/databinding/ActivityMainBinding.java
+ com.example.zooplication.databinding.ActivityMainBinding
+com/example/zooplication/data/Result.java
+ com.example.zooplication.data.Result
+ com.example.zooplication.data.Result$1
+ com.example.zooplication.data.Result$Error
+ com.example.zooplication.data.Result$Success
+com/example/zooplication/ui/login/LoginViewModelFactory.java
+ com.example.zooplication.ui.login.LoginViewModelFactory
+com/example/zooplication/ui/login/LoginFormState.java
+ com.example.zooplication.ui.login.LoginFormState
+com/example/zooplication/ui/login/LoginResult.java
+ com.example.zooplication.ui.login.LoginResult
+com/example/zooplication/ui/login/LoginViewModel.java
+ com.example.zooplication.ui.login.LoginViewModel
+com/example/zooplication/BuildConfig.java
+ com.example.zooplication.BuildConfig
+com/example/zooplication/MainActivity.java
+ com.example.zooplication.MainActivity
