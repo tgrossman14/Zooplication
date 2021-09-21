@@ -8,19 +8,26 @@ public class Expenditure {
 
     private Date date;
     private String category;
-    private String item;
     private CurrencyAmount amount;
+    private String item;
 
-    public Expenditure(Date date, String category, String item, CurrencyAmount amount) {
+    public Expenditure(Date date, String category, CurrencyAmount amount, String item) {
         this.date = date;
         this.category = category;
-        this.item = item;
         this.amount = amount;
+        this.item = item;
+
     }
 
     public Expenditure(Date date, String category, CurrencyAmount amount) {
         this.date = date;
         this.category = category;
         this.amount = amount;
+    }
+
+    public Expenditure(Date date, CurrencyAmount amount, String item) {
+        this.date = date;
+        this.amount = amount;
+        this.item = item;
     }
 }
