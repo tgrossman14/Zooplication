@@ -12,28 +12,28 @@ import java.util.List;
 
 public class Recipe {
 
-    private List<HashMap<String, String>> ingredients;
+    private List<Ingredient> ingredients;
     private List<String> instructions;
     private Date dateAdded;
     private Date dateModified;
 
-    public Recipe(List<HashMap<String, String>> ingredients, List<String> instructions, Date dateAdded) {
+    public Recipe(List<Ingredient> ingredients, List<String> instructions, Date dateAdded) {
         this.ingredients = ingredients;
         this.instructions = instructions;
         this.dateAdded = dateAdded;
     }
 
-    public List<HashMap<String, String>> getIngredients() {
+    public List<Ingredient> getIngredients() {
         return ingredients;
     }
 
-    public void addIngredient(HashMap<String, String> ingredient) {
-        this.ingredients.add(ingredient);
+    public void addIngredient(Ingredient ingredient) { this.ingredients.add(ingredient); }
+
+    public void removeIngredient(Ingredient ingredient){
+        this.ingredients.remove(ingredient);
     }
 
-    public void removeIngredient(String name){
-        this.ingredients.remove(name);
-    }
+    public void setIngredients(List<Ingredient> ingredients){ this.ingredients = ingredients; }
 
     public List<String> getInstructions() {
         return instructions;
@@ -46,6 +46,8 @@ public class Recipe {
     public void removeInstruction(String instruction){
         this.instructions.remove(instruction);
     }
+
+    public void setInstructions(List<String> instructions) { this.instructions = instructions; }
 
     public Date getDateAdded() {
         return dateAdded;

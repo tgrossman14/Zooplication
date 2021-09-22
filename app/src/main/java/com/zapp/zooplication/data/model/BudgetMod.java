@@ -1,14 +1,14 @@
 package com.zapp.zooplication.data.model;
 
-import android.icu.util.CurrencyAmount;
+import java.math.BigDecimal;
 
 import java.util.Date;
 
 public class BudgetMod {
     private Date date;
-    private CurrencyAmount amount;
+    private BigDecimal amount;
 
-    public BudgetMod(Date date, CurrencyAmount amount) {
+    public BudgetMod(Date date, BigDecimal amount) {
         this.date = date;
         this.amount = amount;
     }

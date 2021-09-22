@@ -1,19 +1,20 @@
 package com.zapp.zooplication.data.model;
 
-import android.icu.util.CurrencyAmount;
+import java.math.BigDecimal;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
 public class Budget {
     private Date startDate;
     private Date endDate;
-    private CurrencyAmount budgetTarget;
-    private CurrencyAmount budgetCurrent;
+    private BigDecimal budgetTarget;
+    private BigDecimal budgetCurrent;
     private List<Expenditure> expenses;
     private List<BudgetMod> budgetChanges;
 
-    public Budget(Date startDate, Date endDate, CurrencyAmount budgetTarget, CurrencyAmount budgetCurrent) {
+    public Budget(Date startDate, Date endDate, BigDecimal budgetTarget, BigDecimal budgetCurrent) {
         this.startDate = startDate;
         this.endDate = endDate;
         this.budgetTarget = budgetTarget;
@@ -36,19 +37,19 @@ public class Budget {
         this.endDate = endDate;
     }
 
-    public CurrencyAmount getBudgetTarget() {
+    public BigDecimal getBudgetTarget() {
         return budgetTarget;
     }
 
-    public void setBudgetTarget(CurrencyAmount budgetTarget) {
+    public void setBudgetTarget(BigDecimal budgetTarget) {
         this.budgetTarget = budgetTarget;
     }
 
-    public CurrencyAmount getBudgetCurrent() {
+    public BigDecimal getBudgetCurrent() {
         return budgetCurrent;
     }
 
-    public void setBudgetCurrent(CurrencyAmount budgetCurrent) {
+    public void setBudgetCurrent(BigDecimal budgetCurrent) {
         this.budgetCurrent = budgetCurrent;
     }
 
